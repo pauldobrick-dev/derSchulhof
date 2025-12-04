@@ -1,0 +1,13 @@
+# Environment Variables
+.env
+
+# Node
+node_modules/
+npm-debug.log
+
+# Database
+*.db
+
+# IDE
+.vscode/
+.idea/
