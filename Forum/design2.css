@@ -1,0 +1,78 @@
+html {
+    margin: -0px;
+}
+
+header {
+    width: 100%;
+    background-color: #eb860e;
+    height: 50px;
+    display: flex;              /* Flexbox aktivieren */
+    justify-content: space-between; /* verteilt H1 links, Bild rechts */
+    align-items: center;        /* vertikal mittig */
+}
+
+body {
+    height: auto; /*Ist noch Falsch*/
+}
+
+footer {
+    width: 100%;
+    background-color: #eb860e;
+    text-align: center; /* alle Links in die Mitte */
+}
+
+.menue-link {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#Einstellungen {
+    text-align: center;
+}
+
+#inhalt {
+    margin: 10px auto; /*10px oben und unten, links und rechts wird automatisch*/
+    background-color: lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 96%;
+}
+
+#profilbild {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; /*rund*/
+    object-fit: cover; /*Bild wird zugeschnitten*/
+    border: 2px solid black;
+}
+
+@media (min-width: 600px) {
+    header {
+        height: 100px;
+    }
+
+    #profilbild {
+    width: 64px;
+    height: 64px;
+    }
+
+    #inhalt {
+        width: 80%
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+        height: 150px;
+
+    }
+
+    #profilbild {
+    width: 96px;
+    height: 96px;
+    }
+
+    #inhalt {
+        width: 70%;
+    }
+}

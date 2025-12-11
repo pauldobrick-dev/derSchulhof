@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forum - DieWerkstatt</title>
+        <link rel="stylesheet" href="design2.css">
+        <?php
+            include("login.php");
+        ?>
+    </head>
+    <body>
+        <header>
+            <h1>Die Werkstatt</h1>
+            <img id="profilbild" src="Profilbild.png" alt="Profilbild">
+        </header>
+
+        <div>
+            <p id="Anzeige"></p>
+            <input id="Vorname" type="text" placeholder="Vorname"/>
+            <br>
+            <input id="Nachname" type="text" placeholder="Nachname"/>
+            <br>
+            <button id="speichern">Änderungen Speichern</button>
+        </div>
+        <script src="werkstatt.js"></script>
+
+    </body>
+    <footer class="footer-menu">
+        <a class="menue-link" href="#">Chat</a>
+        <a class="menue-link" href="#">+</a>
+        <a class="menue-link" href="#">Feed</a>
+    </footer>
+</html>
