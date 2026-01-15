@@ -1,6 +1,6 @@
 "use strict";
 
-//Variablen für 
+//Variablen 
 let vorname = "vorname";
 let nachname = "nachname";
 
@@ -11,7 +11,7 @@ function name_anzeigen() {
     feld.textContent = `Hallo ${vorname} ${nachname}!`;
 }
 
-//Namen aus den Input-Feldern uebernehmen
+//Namen aus den Input Feldern uebernehmen
 function name_aendern() {
     console.log("name_aendern() wird ausgefuehrt");
     const v = document.getElementById("Vorname").value.trim();

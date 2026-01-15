@@ -11,7 +11,9 @@
     <body>
         <header>
             <h1>DerSchulhof</h1>
-            <img id="profilbild" src="Profilbild.png" alt="Profilbild">
+            <a href="einstellungen.html">
+                <img id="profilbild" src="Profilbild.png" alt="Profilbild">
+            </a>
         </header>
         <div id="inhalt">
             <form class="search-bar" action="/suche" method="get" role="search">
@@ -43,12 +45,19 @@
                     <a class="post-link" href="#">💬</a>
                 </div>
             </div>
+            <div class ="post">
+                <input id="neu" type="text" placeholder="Schreib hier rein."/>
+                <br>
+                <br>
+                <button id="abschicken">senden</button>
+            </div>
         </div>
         <!--<script>alert("Melde dich an, um die Inhalte zu sehen.");</script>*/-->
+        
+        <footer class="footer-menu">
+            <a class="menue-link" href="#">Chat</a>
+            <a class="menue-link" href="#">+</a>
+            <a class="menue-link" href="#">Feed</a>
+        </footer>
     </body>
-    <footer class="footer-menu">
-        <a class="menue-link" href="#">Chat</a>
-        <a class="menue-link" href="#">+</a>
-        <a class="menue-link" href="#">Feed</a>
-    </footer>
 </html>

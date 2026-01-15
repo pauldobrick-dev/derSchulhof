@@ -32,6 +32,7 @@ footer {
 }
 
 .post {
+    margin-bottom: 10px;
     margin-left: 5%;
     margin-right: 5%;
     padding: 5px;
@@ -39,23 +40,33 @@ footer {
 }
 
 .post-bild {
-    width: 75%;          /* 20 % der Bildschirmbreite */
-    aspect-ratio: 4 / 3;  /* Breite zu Hoehe */
-    object-fit: contain;
-    margin-left: auto;   /* Bild horizontal zentrieren */
-    margin-right: auto;  /* Bild horizontal zentrieren */
+    width: 75%;             /*75% der Bildschirmbreite*/
+    aspect-ratio: 4 / 3;    /*Breite zu Hoehe */
+    object-fit: contain;    /*Bild soll voll passen*/
+    margin-left: auto;      /*Bild horizontal zentrieren*/
+    margin-right: auto;     /*Bild horizontal zentrieren*/
     background: black;
-    display: block; /*Eigne Zeile*/
+    display: block;         /*Eigne Zeile*/
 }
 
 .post-menue {
-    text-align: center;
+    text-align: center;     /*Die Symbole zentrieren*/
 }
 
 .post-link {
-    font-size: 36px;
-    padding-left: 10%;
-    padding-right: 10%;
+    font-size: 36px;        /*Größe in Pixel*/
+    padding-left: 10%;      /*Abstand links*/
+    padding-right: 10%;     /*Abstand rechts*/   
+}
+
+#neu {
+    width: 98%;
+    display: block;     /*noetig, damit margin funktioniert */
+    margin: 0 auto;
+}
+
+#abschicken {
+    margin-left: 0.5%;
 }
 
 #profilbild {
